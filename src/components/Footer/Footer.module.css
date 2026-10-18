@@ -1,0 +1,45 @@
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 30px 0 96px;
+  color: var(--mut);
+  font-size: 14px;
+}
+.footerContainer{
+	display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.footerPrj {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--sans);
+  font-size: 13px; 
+  color: var(--mut);
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+  letter-spacing: 0.02em;
+}
+
+.sdcLogo {
+  width: 30px;
+  height: 30px;
+  color: #2f5bea; 
+  transition: transform 0.3s ease, color 0.3s ease, filter 0.3s ease;
+  flex-shrink: 0; 
+}
+.sdcText {
+  font-weight: 700;
+
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+.footerPrj:hover .sdcLogo {
+  color: #22b8e6; 
+  transform: scale(1.15) rotate(8deg); 
+  filter: drop-shadow(0 0 6px rgba(47, 91, 234, 0.5)); 
+}
+.footerPrj:hover .sdcText {
+  color: #22b8e6;
+  text-shadow: 0 0 8px rgba(47, 91, 234, 0.4); 
+}

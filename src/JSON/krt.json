@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Masaż klasyczny",
+		"description": "3 × 30 min",
+		"price": 270,
+		"originalPrice": 300
+	},
+	{
+		"title": "Masaż klasyczny",
+		"description": "5 × 30 min",
+		"price": 400,
+		"originalPrice": 500
+	},
+	{
+		"title": "Masaż klasyczny",
+		"description": "3 × 60 min",
+		"price": 510,
+		"originalPrice": 600
+	},
+	{
+		"title": "Drenaż limfatyczny nóg",
+		"description": "3 × 40 min",
+		"price": 420,
+		"originalPrice": 450
+	}
+]

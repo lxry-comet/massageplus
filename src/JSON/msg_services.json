@@ -1,0 +1,137 @@
+{
+	"categories": {
+		"all": "Wszystkie",
+		"kl": "Klasyczne",
+		"ci": "Ciepło i aromat",
+		"tw": "Twarz i głowa",
+		"st": "Stopy i nogi"
+	},
+	"services": [
+		{
+			"category": "kl",
+			"titlePl": "Masaż klasyczny (szwedzki)",
+			"titleDe": "Klassische Massage (Schwedische Massage)",
+			"description": "Podstawa masażu: rozluźnia mięśnie i poprawia krążenie.",
+			"prices": [
+				{ "duration": 20, "price": 80 },
+				{ "duration": 30, "price": 100 },
+				{ "duration": 60, "price": 200 }
+			]
+		},
+		{
+			"category": "kl",
+			"titlePl": "Masaż tajski, delikatny stretching",
+			"titleDe": "Thaimassage mit sanftem Stretching",
+			"description": "Łagodne rozciąganie połączone z uciskiem — bez bólu i pośpiechu.",
+			"prices": [{ "duration": 60, "price": 200 }]
+		},
+		{
+			"category": "ci",
+			"titlePl": "Masaż gorącymi kamieniami",
+			"titleDe": "Massage mit heißen Steinen",
+			"description": "Ciepło kamieni głęboko rozgrzewa i uspokaja.",
+			"prices": [
+				{ "duration": 30, "price": 110 },
+				{ "duration": 60, "price": 220 }
+			]
+		},
+		{
+			"category": "ci",
+			"titlePl": "Masaż relaksujący gorącym masłem shea",
+			"titleDe": "Entspannungsmassage mit warmem Shea-Butter",
+			"description": "Ciepłe masło otula skórę, a ruchy są wolne i kojące.",
+			"prices": [
+				{ "duration": 30, "price": 110 },
+				{ "duration": 60, "price": 220 }
+			]
+		},
+		{
+			"category": "ci",
+			"titlePl": "Masaż rokitnikowy z herbatą",
+			"titleDe": "Entspannungsmassage mit Sanddorn + Sanddorntee",
+			"description": "Relaks z rokitnikiem, na koniec herbata z rokitnika.",
+			"prices": [
+				{ "duration": 30, "price": 110 },
+				{ "duration": 50, "price": 200 }
+			]
+		},
+		{
+			"category": "ci",
+			"titlePl": "Masaż z ciepłym okładem borowinowym",
+			"titleDe": "Massage mit warmem Moorpackung",
+			"description": "Ciepły okład borowinowy na wybrane partie ciała.",
+			"prices": [{ "duration": 40, "price": 130 }]
+		},
+		{
+			"category": "tw",
+			"titlePl": "Masaż głowy i karku (soft)",
+			"titleDe": "Kopfmassage & Nackenmassage",
+			"description": "Delikatny zabieg na napięcie po długim dniu przy biurku.",
+			"prices": [{ "duration": 30, "price": 100 }]
+		},
+		{
+			"category": "tw",
+			"titlePl": "Masaż twarzy Kobido",
+			"titleDe": "Gesichtsmassage Kobido",
+			"description": "Japońska technika masażu twarzy, wykonywana rytmicznie.",
+			"prices": [{ "duration": 60, "price": 200 }]
+		},
+		{
+			"category": "tw",
+			"titlePl": "Masaż twarzy limfatyczny",
+			"titleDe": "Gesichtsmassage (Lymphdrainage)",
+			"description": "Lekki drenaż twarzy — odświeża i redukuje opuchliznę.",
+			"prices": [{ "duration": 30, "price": 100 }]
+		},
+		{
+			"category": "tw",
+			"titlePl": "Świecowanie uszu",
+			"titleDe": "Ohrenkerzenbehandlung",
+			"description": "Krótki, relaksujący zabieg.",
+			"prices": [{ "duration": 20, "price": 70 }]
+		},
+		{
+			"category": "st",
+			"titlePl": "Masaż stóp",
+			"titleDe": "Fußmassage / + der Beine",
+			"description": "Ulga dla zmęczonych stóp po całym dniu.",
+			"prices": [
+				{ "duration": 30, "price": 100 },
+				{ "duration": 60, "price": 200 }
+			]
+		},
+		{
+			"category": "st",
+			"titlePl": "Masaż limfatyczny drenujący nóg",
+			"titleDe": "Lymphdrainage für Beine",
+			"description": "Drenaż limfatyczny nóg — poczucie lekkości.",
+			"prices": [{ "duration": 40, "price": 150 }]
+		}
+	],
+	"packages": [
+		{
+			"title": "Masaż klasyczny",
+			"description": "3 × 30 min",
+			"price": 270,
+			"originalPrice": 300
+		},
+		{
+			"title": "Masaż klasyczny",
+			"description": "5 × 30 min",
+			"price": 400,
+			"originalPrice": 500
+		},
+		{
+			"title": "Masaż klasyczny",
+			"description": "3 × 60 min",
+			"price": 510,
+			"originalPrice": 600
+		},
+		{
+			"title": "Drenaż limfatyczny nóg",
+			"description": "3 × 40 min",
+			"price": 420,
+			"originalPrice": 450
+		}
+	]
+}

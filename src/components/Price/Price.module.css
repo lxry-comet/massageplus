@@ -1,0 +1,38 @@
+.price{
+	padding: 84px 0;
+	background: var(--bg2);
+  border-block: 1px solid var(--line);
+}
+.priceTitle{
+	font-size: clamp(34px,5vw,52px);
+  margin-bottom: 12px;	
+}
+.priceDisc{
+	color: var(--mut);
+  max-width: 56ch;
+  margin: 0 0 36px;
+}
+.priceCategorry{
+	display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+}
+.priceCategorry button{
+	font: 500 14px var(--sans);
+  color: var(--mut);
+  background: none;
+  border: 1px solid var(--line);
+  padding: 9px 18px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+/*ToDO btn true: 
+	background: var(--gold);
+  color: #1a1305;
+  border-color: var(--gold);
+  font-weight: 700;
+
+*/

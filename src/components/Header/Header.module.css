@@ -1,0 +1,42 @@
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(8,8,10,.88);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+  padding-top: env(safe-area-inset-top,0px);
+}
+.headerTitle{
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--gold2);
+  letter-spacing: .01em;
+}
+.headerTitle span{
+	font-style: italic;
+  color: var(--gold);
+}
+.headerContainer{
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+.headerNav{
+	display: flex;
+  gap: 26px;
+  font-size: 14px;
+  color: var(--mut);
+}
+.headerContactTel{
+	font-weight: 700;
+  color: var(--gold2);
+  font-size: 15px;
+}
+@media (max-width: 820px) {
+  .headerNav {
+    display: none;
+  }
+}
