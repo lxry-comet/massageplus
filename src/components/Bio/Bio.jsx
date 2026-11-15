@@ -1,15 +1,11 @@
 import { useState } from 'react'
 import '../App/App.css'
-import img from './inna.png'
 import css from './Bio.module.css'
 
 export default function Bio() {
 	return (
 		<section className={css.bio}>
 			<div className={`container ${css.bioContainer}`}>
-					<div className={css.bioPhoto}>
-						<img src={img} alt="Inna Masażysta" />
-					</div>
 					<div>
 						<h2 className={css.bioTitle}>Jedna specjalistka, pełna uwaga</h2>
 						<p>Massage Plus prowadzi Inna. Od 2000 roku pracuje w masażu i medycynie, więc zna ciało nie tylko z kursów, ale z ponad dwudziestu lat praktyki.</p>
